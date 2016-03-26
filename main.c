@@ -22,6 +22,12 @@ void korni()
 		{
 			printf("korney net\n");
 		}
+		else 
+		{
+			x1 = (-b+d)/(2*a);
+			x2 = (-b-d)/(2*a);
+			printf("x1 = %f, x2 = %f\n",x1,x2);
+		}
 	}	
 	return 0;
 }
