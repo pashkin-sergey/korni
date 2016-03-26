@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <math.h>
 
-void input()
+void korni()
 {
-	float a,b,c;
+	float a,b,c,d;
 	printf("Wwedite koeficient a: \n");
 	scanf("%f",&a);
 	printf("Wwedite koeficient b: \n");
@@ -14,5 +14,14 @@ void input()
 	{
 		printf("Ne kvadratnoe uravnenie");
 	}
+	else 
+	{
+		d = b*b-4*a*c;
+		d = sqrt(d);
+		if (d < 0)
+		{
+			printf("korney net\n");
+		}
+	}	
 	return 0;
 }
