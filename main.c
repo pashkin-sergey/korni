@@ -16,7 +16,7 @@ int main()
 		return -1;
 	}
 	d = b * b - 4 * a * c;
-		if (d < 0)
+	if (d < 0)
 	{
 		printf("korney net\n");
 		return 1;
